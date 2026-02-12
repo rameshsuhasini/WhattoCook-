@@ -1,0 +1,17 @@
+.wtc-auth-row,.wtc-auth-form,.wtc-auth-login { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.wtc-auth-login { justify-content:flex-start; }
+.wtc-auth-input { min-height:40px; border:1px solid #e8dfd5; border-radius:8px; padding:0 10px; }
+.wtc-auth-btn { min-height:40px; border:1px solid #e8dfd5; border-radius:8px; padding:0 12px; background:#fff; cursor:pointer; }
+.wtc-auth-google { background:#2a211b; color:#fff; border-color:#2a211b; }
+.wtc-auth-note { margin:0; font-size:13px; color:#6f6157; }
+
+.wtc-visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
